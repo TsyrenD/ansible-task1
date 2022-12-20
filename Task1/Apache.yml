@@ -19,7 +19,7 @@
 
   - name: unarchive the file to be downloaded and save in /tmp
     unarchive:
-      src: https://www.free-css.com/assets/files/free-css-templates/download/page285/evonyee.zip
+      src: https://www.free-css.com/free-css-templates/page284/pet-shop
       dest: /tmp/
       remote_src: yes
 
