@@ -1,4 +1,4 @@
-# bf
+# First Ansible-Playbook
 - hosts: web
   tasks: 
   - name: install the latest version of Apache
@@ -20,13 +20,13 @@
 
   - name: unarchive the file to be downloaded and save in /tmp
     unarchive:
-      src: https://www.free-css.com/free-css-templates/page284/pet-shop
+      src: https://www.free-css.com/assets/files/free-css-templates/download/page284/pet-shop.zip
       dest: /tmp/
       remote_src: yes
 
   - name: copy index file to Apache directory
     copy: 
-      src: /tmp/evonyee/
+      src: /tmp/pet-shop/
       dest: /var/www/html/
       remote_src: yes
 
