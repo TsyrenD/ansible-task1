@@ -20,13 +20,13 @@
 
   - name: unarchive the file to be downloaded and save in /tmp
     unarchive:
-      src: https://www.free-css.com/assets/files/free-css-templates/download/page284/pet-shop.zip
+      src: https://www.free-css.com/assets/files/free-css-templates/download/page285/viking.zip
       dest: /tmp/
       remote_src: yes
 
   - name: copy index file to Apache directory
     copy: 
-      src: /tmp/pet-shop/
+      src: /tmp/viking/
       dest: /var/www/html/
       remote_src: yes
 
