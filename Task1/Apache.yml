@@ -26,7 +26,7 @@
 
   - name: copy index file to Apache directory
     copy: 
-      src: /tmp/viking/
+      src: /tmp/viking/index.html
       dest: /var/www/html/
       remote_src: yes
 
